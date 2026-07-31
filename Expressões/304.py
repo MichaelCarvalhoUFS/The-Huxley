@@ -24,13 +24,3 @@ print(f"{Nota_10} nota(s) de R$ {nota_10}")
 print(f"{Nota_5} nota(s) de R$ {nota_5}")
 print(f"{Nota_2} nota(s) de R$ {nota_2}")
 print(f"{Nota_1} nota(s) de R$ {nota_1}")
-
-# ChatGPT fez
-N = int(input())
-print(N)
-notas = [100, 50, 20, 10, 5, 2, 1]
-resto = N
-for nota in notas:
-    qtd = resto // nota
-    print(f"{qtd} nota(s) de R$ {nota},00")
-    resto = resto % nota
